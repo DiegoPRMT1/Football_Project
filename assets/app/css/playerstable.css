@@ -1,0 +1,148 @@
+
+body {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
+    line-height: 1.42em;
+    color: #A7A1AE;
+    background-color: #222631;
+}
+
+.custom-table-games {
+    width: 100%;
+    margin-bottom: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-table-games tr th {
+    background: #ee1e46;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.custom-table-games tbody tr td {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-table-games tbody tr td strong {
+    font-weight: 400;
+}
+
+.custom-table-games tbody tr:last-child td {
+    border: none;
+}
+
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color: #4DC3FA;
+}
+
+div h1 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 2em;
+    text-align: center;
+    color: #4DC3FA;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    line-height: 1em;
+    color: #FB667A;
+}
+
+h2 a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FB667A;
+    text-decoration: none;
+}
+
+.blue {
+    color: #185875;
+}
+
+.yellow {
+    color: #FFF842;
+}
+
+/*.container th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #185875;
+}*/
+
+.container td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.container td, .container th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+    background-color: transparent;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.container th {
+    background-color: #1F2739;
+}
+
+
+@media (max-width: 800px) {
+    .container td:nth-child(4),
+    .container th:nth-child(4) {
+        display: none;
+    }
+}
+.pagination{
+    margin: 0 0.3em 0.3em 0;
+    padding:0.35em 10em;
+    justify-content: center;
+}
+/* Games table style */
+.sectionTable{
+    margin-top: 30px;
+}
+.btnSeason{
+    margin-top: 100px;
+}
+/* Players table style */
+.sectionTable1{
+    margin-top: 30px;
+}
+.btnNew{
+    margin-top: 100px;
+}
+

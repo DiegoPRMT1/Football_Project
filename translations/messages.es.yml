@@ -1,0 +1,23 @@
+swal:
+  congrats: Enhorabuena
+  save_success: Su formulatio ha sido registrado correctamente.
+  error_gol: Alguno de los equipos debe tener un gol.
+  error_norepeat: Los jugadores enemigos no deben coincidir
+  error_file: Archivo no valido
+
+footer:
+  team: 'un equipo reducido de profesionales enfocado en la
+                                concentración de talento y la búsqueda
+                                de soluciones expertas a proyectos empresariales.'
+  innatial: 'Somos Inatial Developers'
+  location: 'C/ Príncipe 35, Piso 3, Vigo'
+  email: 'info@innatial.com'
+  copy: 'Copyright © 2022'
+  cookie: 'Utilizamos cookies propias y de terceros para mejorar tu experiencia y nuestros servicios.Si continúas navegando, consideramos que aceptas su uso.'
+  booked: 'Todos los derechos reservados.'
+
+
+
+
+
+
